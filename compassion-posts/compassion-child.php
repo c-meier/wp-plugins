@@ -246,7 +246,6 @@ class CompassionChildren
         try {
             $odoo = new CompassionOdooConnector();
             $odoo->reserveChild($child_number);
-            update_post_meta($child_id, '_child_reserved', 'true');
         } catch (Exception $e) {
             echo "Child could not be reserved";
             http_response_code(500);
@@ -275,6 +274,21 @@ class CompassionChildren
             echo "Message could not be sent";
             http_response_code(500);
             die();
+        }
+
+        $args = array(
+            'fields'        => 'ids',
+            'post_status'   => 'any',
+            'post_type'     => 'child',
+            'meta_query'    =>  array(
+                array('key' => '_child_number', 'value' => $child_number, 'compare' => 'LIKE'),
+            ),
+            'numberposts'   => -1,
+            'posts_per_page'   => -1,
+        );
+        $child_langs = get_posts($args);
+        foreach($child_langs as $postid) {
+            update_post_meta($postid, '_child_reserved', 'true');
         }
 
         // Content sent back. It replaces the button and form used to recommend a child to a friend.
