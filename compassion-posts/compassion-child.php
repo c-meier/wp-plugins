@@ -9,6 +9,7 @@ class CompassionChildren
         add_filter('cmb2_admin_init', array($this, 'child_settings'));
         add_filter('views_edit-child', array($this, 'modified_views_so_15799171'));
         add_filter('display_post_states', array($this, 'child_post_states'), 10, 2 );
+        add_action('template_redirect', array($this, 'child_404_redirect'));
     }
 
     /**
@@ -188,6 +189,14 @@ class CompassionChildren
 
 
         return $post_states;
+    }
+
+    public function child_404_redirect() {
+        $queried_post_type = get_query_var('post_type');
+        if( is_404() && $queried_post_type == 'child') {
+            wp_redirect(home_url('/parrainer-un-enfant') . '?msg=' . urlencode(__('The wanted children is not available anymore !', 'compassion-posts')));
+            exit;
+        }
     }
 
     /**
