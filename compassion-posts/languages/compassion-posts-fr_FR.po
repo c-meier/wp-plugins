@@ -2,19 +2,19 @@
 # This file is distributed under the same license as the Compassion Agenda plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Compassion Agenda 0.0.1\n"
+"Project-Id-Version: Compassion Posts 0.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/compassion-posts\n"
 "POT-Creation-Date: 2019-03-11T12:40:33+01:00\n"
-"PO-Revision-Date: 2019-03-11 13:00+0100\n"
+"PO-Revision-Date: 2019-03-11 12:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: it_CH\n"
+"Language: fr_CH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Domain: compassion-posts\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Plugin Name of the plugin
 msgid "Compassion Posts"
@@ -35,99 +35,97 @@ msgstr ""
 #: compassion-locations.php:24
 msgctxt "Post Type General Name"
 msgid "Standorte"
-msgstr "Posizione"
+msgstr "Pays"
 
 #: compassion-locations.php:25
 msgctxt "Post Type Singular Name"
 msgid "Standort"
-msgstr "Posizione"
+msgstr "Pays"
 
 #: compassion-locations.php:26 compassion-locations.php:27
 #: compassion-locations.php:28 compassion-locations.php:51
 msgid "Standorte"
-msgstr "Posizione"
+msgstr "Pays"
 
 #: compassion-locations.php:29 compassion-child.php:29
 #: compassion-downloads.php:28 compassion-agendas.php:67
 msgid "Parent:"
-msgstr "Parenti:"
+msgstr ""
 
 #: compassion-locations.php:30
 msgid "Alle Standorte"
-msgstr ""
+msgstr "Tous les pays"
 
 #: compassion-locations.php:31
 msgid "Neuen Standort eintragen"
-msgstr "Aggiungere nuova posizione"
+msgstr ""
 
 #: compassion-locations.php:32 compassion-child.php:32
 #: compassion-downloads.php:31
-#, fuzzy
-#| msgid "Nouveau"
 msgid "Neu"
-msgstr "Nuovo"
+msgstr ""
 
 #: compassion-locations.php:33
 msgid "Neuer Standort"
-msgstr "Nuova posizione"
+msgstr ""
 
 #: compassion-locations.php:34
 msgid "Standort bearbeiten"
-msgstr "Modifica posizione"
+msgstr ""
 
 #: compassion-locations.php:35
 msgid "Standort aktualisieren"
-msgstr "Aggiornamento posizione"
+msgstr ""
 
 #: compassion-locations.php:36
 msgid "Standort ansehen"
-msgstr "Vedere posizione"
+msgstr ""
 
 #: compassion-locations.php:37
 msgid "Standort suchen"
-msgstr "Cercare posizione"
+msgstr ""
 
 #: compassion-locations.php:38 compassion-child.php:38
 #: compassion-downloads.php:37 compassion-agendas.php:76
 msgid "Nicht gefunden"
-msgstr "Non trovato"
+msgstr "Introuvable"
 
 #: compassion-locations.php:39 compassion-child.php:39
 #: compassion-downloads.php:38 compassion-agendas.php:77
 msgid "Nicht im Papierkorb gefunden"
-msgstr "Non trovato nel cestino"
+msgstr "Introuvable dans la corbeille"
 
 #: compassion-locations.php:40 compassion-child.php:40
 msgid "Featured Image"
-msgstr "Foto di presentazione"
+msgstr ""
 
 #: compassion-locations.php:41 compassion-child.php:41
 msgid "Set featured image"
-msgstr "Set foto di presentazione"
+msgstr ""
 
 #: compassion-locations.php:42 compassion-child.php:42
 msgid "Remove featured image"
-msgstr "Rimuovere foto di presentazione"
+msgstr ""
 
 #: compassion-locations.php:43 compassion-child.php:43
 msgid "Use as featured image"
-msgstr "Utilizzare come foto di presentazione"
+msgstr ""
 
 #: compassion-locations.php:44 compassion-child.php:44
 msgid "Insert into item"
-msgstr "Inserire nella voce"
+msgstr ""
 
 #: compassion-locations.php:45 compassion-child.php:45
 msgid "Uploaded to this item"
-msgstr "Caricare a questa voce"
+msgstr ""
 
 #: compassion-locations.php:46 compassion-child.php:46
 msgid "Items list"
-msgstr "Lista elementi"
+msgstr ""
 
 #: compassion-locations.php:47 compassion-child.php:47
 msgid "Items list navigation"
-msgstr "Lista elementi di navigazione"
+msgstr ""
 
 #: compassion-locations.php:48 compassion-child.php:48
 msgid "Filter items list"
@@ -135,23 +133,23 @@ msgstr ""
 
 #: compassion-locations.php:80
 msgid "Standort-Kategorie"
-msgstr "Luogo-Categoria"
+msgstr "Catégorie de pays"
 
 #: compassion-locations.php:96
 msgid "Standort-Gruppe"
-msgstr "Luogo-Gruppo"
+msgstr ""
 
 #: compassion-locations.php:113 compassion-downloads.php:85
 msgid "Zusätzliche Angaben"
-msgstr "Ulteriori informazioni"
+msgstr ""
 
 #: compassion-locations.php:118
 msgid "Text der Verlinkung"
-msgstr "Testo di collegamento"
+msgstr ""
 
 #: compassion-locations.php:124
 msgid "Pixel von oben"
-msgstr "I Pixel dall'alto"
+msgstr ""
 
 #: compassion-locations.php:126
 msgid "Bei Zentren handelt es sich um die Anzahl der Pixel von oben"
@@ -159,7 +157,7 @@ msgstr ""
 
 #: compassion-locations.php:131
 msgid "Pixel von links"
-msgstr "Pixel da sinistra"
+msgstr ""
 
 #: compassion-locations.php:133
 msgid "Bei Zentren handelt es sich um die Anzahl der Pixel von links"
@@ -167,40 +165,40 @@ msgstr ""
 
 #: compassion-locations.php:138
 msgid "Längengrad"
-msgstr "Grado di longitudine"
+msgstr ""
 
 #: compassion-locations.php:144
 msgid "Breitengrad"
-msgstr "Grado di latitudine"
+msgstr ""
 
 #: compassion-locations.php:150
 msgid "Foto"
-msgstr "Foto"
+msgstr ""
 
 #: compassion-locations.php:156
 msgid "Titel"
-msgstr "Titolo"
+msgstr ""
 
 #: compassion-locations.php:158
 msgid "z.B. für Philippinen: in den Philippinen"
-msgstr "es. per le Filippine: nelle Filippine"
+msgstr ""
 
 #: compassion-locations.php:163
 msgid "Über das Land"
-msgstr "Riguardo il Paese"
+msgstr "A propos du pays"
 
 #: compassion-locations.php:169
 msgid "Ländercode"
-msgstr "Prefisso internazionale"
+msgstr ""
 
 #: compassion-locations.php:175
 msgid "Externe URL"
-msgstr "Esterno URL"
+msgstr ""
 
 #: compassion-child.php:24
 msgctxt "Post Type General Name"
 msgid "Kind"
-msgstr "Bambino"
+msgstr ""
 
 #: compassion-child.php:25
 msgctxt "Post Type Singular Name"
@@ -210,43 +208,43 @@ msgstr ""
 #: compassion-child.php:26 compassion-child.php:27 compassion-child.php:28
 #: compassion-child.php:51
 msgid "Kinder"
-msgstr "Bambini"
+msgstr ""
 
 #: compassion-child.php:30
 msgid "Alle Kinder"
-msgstr "Tutti i bambini"
+msgstr "Tous les enfants"
 
 #: compassion-child.php:31
 msgid "Neues Kind eintragen"
-msgstr "Aggiungere un nuovo bambino"
+msgstr ""
 
 #: compassion-child.php:33
 msgid "Neues Kind"
-msgstr "Nuovo bambino"
+msgstr ""
 
 #: compassion-child.php:34
 msgid "Kind bearbeiten"
-msgstr "Modifica bambino"
+msgstr ""
 
 #: compassion-child.php:35
 msgid "Kind aktualisieren"
-msgstr "Aggiornamento bambino"
+msgstr ""
 
 #: compassion-child.php:36
 msgid "Kind ansehen"
-msgstr "Vedere bambino"
+msgstr ""
 
 #: compassion-child.php:37
 msgid "Kind suchen"
-msgstr "Cercare Bambino"
+msgstr ""
 
 #: compassion-child.php:80
 msgid "Land wählen"
-msgstr "Scegliete il Paese"
+msgstr ""
 
 #: compassion-child.php:97
 msgid "Name"
-msgstr "Nome"
+msgstr "Nom"
 
 #: compassion-child.php:103
 msgid "Kurzbeschreibung"
@@ -254,15 +252,15 @@ msgstr ""
 
 #: compassion-child.php:109
 msgid "Geburtstag"
-msgstr "Compleanno"
+msgstr ""
 
 #: compassion-child.php:115
 msgid "Geschlecht"
-msgstr "Genere"
+msgstr "Sexe"
 
 #: compassion-child.php:125
 msgid "Startdatum"
-msgstr "Data di inizio"
+msgstr ""
 
 #: compassion-child.php:131
 msgid "Beschreibung"
@@ -270,23 +268,23 @@ msgstr ""
 
 #: compassion-child.php:137
 msgid "Über das Projekt"
-msgstr "Informazioni sul Centro"
+msgstr "A propos du centre d'accueil"
 
 #: compassion-child.php:143
 msgid "Nummer"
-msgstr "Numero"
+msgstr ""
 
 #: compassion-child.php:149
 msgid "Land"
-msgstr "Paese"
+msgstr "Pays"
 
 #: compassion-child.php:156
 msgid "Portrait"
-msgstr "Ritratto"
+msgstr ""
 
 #: compassion-child.php:186
 msgid "Patenschaftsabschluss"
-msgstr "Dichiarazione di sostegni"
+msgstr ""
 
 #: compassion-downloads.php:23
 msgctxt "Post Type General Name"
@@ -305,7 +303,7 @@ msgstr ""
 
 #: compassion-downloads.php:29
 msgid "Alle Downloads"
-msgstr "Tutti i Download"
+msgstr "Tous les téléchargements"
 
 #: compassion-downloads.php:30
 msgid "Neuen Download eintragen"
@@ -313,35 +311,35 @@ msgstr ""
 
 #: compassion-downloads.php:32
 msgid "Neuen Download"
-msgstr "Nuovo Download"
+msgstr ""
 
 #: compassion-downloads.php:33
 msgid "Download bearbeiten"
-msgstr "Modificare Download"
+msgstr ""
 
 #: compassion-downloads.php:34
 msgid "Download aktualisieren"
-msgstr "Aggiornare Download"
+msgstr ""
 
 #: compassion-downloads.php:35
 msgid "Download ansehen"
-msgstr "Vedere Download"
+msgstr ""
 
 #: compassion-downloads.php:36
 msgid "Download suchen"
-msgstr "Cercare Download"
+msgstr ""
 
 #: compassion-downloads.php:68
 msgid "Kategorien"
-msgstr "Categorie"
+msgstr "Catégories"
 
 #: compassion-downloads.php:90
 msgid "Bestellen"
-msgstr ""
+msgstr "Commander"
 
 #: compassion-downloads.php:91
 msgid "Download für Bestellungen freigeben"
-msgstr "Download gratuito per gli ordini"
+msgstr ""
 
 #: compassion-downloads.php:97
 msgid "Button-Text"
@@ -358,53 +356,53 @@ msgstr ""
 #: compassion-agendas.php:62
 msgctxt "Post Type General Name"
 msgid "Agendas"
-msgstr "Ordini del giorno"
+msgstr ""
 
 #: compassion-agendas.php:63
 msgctxt "Post Type Singular Name"
 msgid "Agenda"
-msgstr "Ordine del giorno"
+msgstr ""
 
 #: compassion-agendas.php:64 compassion-agendas.php:65
 #: compassion-agendas.php:66 compassion-agendas.php:80
 msgid "Agendas"
-msgstr "Ordini"
+msgstr ""
 
 #: compassion-agendas.php:68
 msgid "Tous les agendas"
-msgstr "Tutti gli ordini"
+msgstr ""
 
 #: compassion-agendas.php:69
 msgid "Ajouter une nouvelle date"
-msgstr "Aggiungere una nuova data"
+msgstr ""
 
 #: compassion-agendas.php:70
 msgid "Nouveau"
-msgstr "Nuovo"
+msgstr ""
 
 #: compassion-agendas.php:71
 msgid "Nouvelle date"
-msgstr "Nuova data"
+msgstr ""
 
 #: compassion-agendas.php:72
 msgid "Modifier la date"
-msgstr "Modificare la data"
+msgstr ""
 
 #: compassion-agendas.php:73
 msgid "Mettre à jour la date"
-msgstr "Aggiornare la data"
+msgstr ""
 
 #: compassion-agendas.php:74
 msgid "Voir la date"
-msgstr "Vedere la data"
+msgstr ""
 
 #: compassion-agendas.php:75
 msgid "Cherche une date"
-msgstr "Cercare una data"
+msgstr ""
 
 #: compassion-agendas.php:108
 msgid "categorie"
-msgstr "Categorie"
+msgstr ""
 
 #: compassion-agendas.php:160
 msgid "date"
@@ -412,7 +410,7 @@ msgstr ""
 
 #: compassion-agendas.php:164
 msgid "Datum hinzufügen"
-msgstr ""
+msgstr "Ajouter une date"
 
 #: compassion-agendas.php:170
 msgid "Enddatum"
